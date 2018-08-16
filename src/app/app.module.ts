@@ -9,13 +9,15 @@ import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 
 import { HeroService } from './hero.service';
 import { MessagesComponent } from './messages/messages.component';
+import { ProductComponent } from './product/product.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeroesComponent,
     HeroDetailComponent,
-    MessagesComponent
+    MessagesComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,

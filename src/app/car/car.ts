@@ -25,7 +25,6 @@ export class Car {
 
   // Method using the engine and tires
   drive() {
-    return `${this.description} car with ` +
-      `${this.engine.cylinders} cylinders and ${this.tires.make} tires.`;
+    return `${this.description} car with ${this.engine.cylinders} cylinders and ${this.tires.make} tires.`;
   }
 }
